@@ -10,20 +10,13 @@
 make
 ```
 
-### Скриншоты
+## Скриншоты
 
-![Состояние загрузки](https://github.com/pchkauu/winfox_test_task/blob/complete_task/media/pending_state.png)
-
-![Состояние ошибки](https://github.com/pchkauu/winfox_test_task/blob/complete_task/media/failure_state.png)
-
-![Загруженный список](https://github.com/pchkauu/winfox_test_task/blob/complete_task/media/loaded_state.png)
-
-![Страница деталей](https://github.com/pchkauu/winfox_test_task/blob/complete_task/media/details_page.png)
-
-![Страница с лого](https://github.com/pchkauu/winfox_test_task/blob/complete_task/media/logo_page.png)
-
-
-<img src="./media/pending_state.png" alt="Состояние загрузки" width="200"/>
+<img src="./media/pending_state.png" alt="Состояние загрузки" width="160"/>
+<img src="./media/failure_state.png" alt="Состояние ошибки" width="160"/>
+<img src="./media/loaded_state.png" alt="Загруженный список" width="160"/>
+<img src="./media/details_page.png" alt="Страница деталей" width="160"/>
+<img src="./media/logo_page.png" alt="Страница с лого" width="160"/>
 
 
 
