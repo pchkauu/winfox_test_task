@@ -12,16 +12,25 @@ make
 
 ### Скриншоты
 
-<img src="./media/pending_state.png" alt="Состояние загрузки" width="200"/>
-
-<img src="./media/failure_state.png" alt="Состояние загрузки" width="200"/>
-
-<img src="./media/loaded_state.png" alt="Состояние загрузки" width="200"/>
-
-<img src="./media/details_page.png" alt="Состояние загрузки" width="200"/>
-
-<img src="./media/logo_page.png" alt="Состояние загрузки" width="200"/>
-
+<table>
+   <tr>
+      <td>
+         <img width="300px" src="./media/pending_state.png">
+      </td>
+      <td>
+         <img width="300px" src="./media/failure_state.png">
+      </td>
+      <td>
+         <img width="300px" src="./media/loaded_state.png">
+      </td>
+      <td>
+         <img width="300px" src="./media/details_page.png">
+      </td>
+      <td>
+         <img width="300px" rc="./media/logo_page.png">
+      </td>
+   </tr>
+<table>
 
 
 
