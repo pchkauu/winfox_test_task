@@ -23,6 +23,9 @@ make
 ![Страница с лого](https://github.com/pchkauu/winfox_test_task/blob/complete_task/media/logo_page.png)
 
 
+<img src="./media/pending_state.png" alt="Состояние загрузки" width="200"/>
+
+
 
 
 
