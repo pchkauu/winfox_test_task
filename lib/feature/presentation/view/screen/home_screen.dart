@@ -24,6 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
       routes: HomeScreen.pages,
       builder: (context, child) {
         return Scaffold(
+          backgroundColor: Colors.white,
           body: child,
           bottomNavigationBar: const HomeBottomNavigationBar(),
         );

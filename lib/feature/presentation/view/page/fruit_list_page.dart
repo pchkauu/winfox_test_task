@@ -72,6 +72,8 @@ class FruitListPageFailureBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Верстал быстро, не вижу смысла декомпозировать такую простую верстку
+
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -175,52 +177,13 @@ class FruitAppBar extends StatelessWidget {
       titleSpacing: 12,
       leading: const SizedBox(),
       leadingWidth: 0,
-      surfaceTintColor: Colors.transparent.withOpacity(0),
+      surfaceTintColor: Colors.transparent,
       backgroundColor: Colors.white,
-      shadowColor: Colors.blueGrey,
-      elevation: 12,
+      shadowColor: Colors.blueGrey.shade100,
+      elevation: 4,
       title: Text(
         'Fruits',
         style: Theme.of(context).textTheme.headlineMedium,
-      ),
-    );
-  }
-}
-
-class FruitCard extends StatelessWidget {
-  final Fruit fruit;
-
-  const FruitCard({
-    required this.fruit,
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    const borderRadius = BorderRadius.all(Radius.circular(12));
-    final textTheme = Theme.of(context).textTheme;
-
-    return Material(
-      borderRadius: borderRadius,
-      child: InkWell(
-        borderRadius: borderRadius,
-        onTap: () {},
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                fruit.name,
-                style: textTheme.bodyLarge?.copyWith(color: Colors.black87),
-              ),
-              const Icon(
-                CupertinoIcons.arrow_right,
-                color: Colors.black54,
-              ),
-            ],
-          ),
-        ),
       ),
     );
   }

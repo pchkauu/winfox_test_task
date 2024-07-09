@@ -1,6 +1,8 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:flutter/material.dart';
 
 import 'package:injectable/injectable.dart';
+import 'package:winfox_test_task/feature/domain/_barrel.dart';
 import 'package:winfox_test_task/feature/presentation/_barrel.dart';
 
 part 'app_router.gr.dart';
@@ -31,7 +33,9 @@ class AppRouter extends _$AppRouter {
         CustomRoute(
           path: '/details',
           page: FruitDetails.page,
-          transitionsBuilder: TransitionsBuilders.fadeIn,
+          transitionsBuilder: TransitionsBuilders.slideLeft,
+          durationInMilliseconds: 200,
+          reverseDurationInMilliseconds: 200,
         ),
       ];
 }
