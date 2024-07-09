@@ -58,6 +58,8 @@ class FruitBloc extends Bloc<FruitEvent, FruitState> {
 
     emit(const FruitPendingState());
 
+    await Future.delayed(const Duration(seconds: 1));
+
     final fetchResult = await _fruitRepository.fetchAllFruits();
 
     event.completer?.complete();

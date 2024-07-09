@@ -19,7 +19,7 @@ class WinfoxApplication extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'Winfox Test Task',
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       theme: theme,
       routerConfig: getIt<AppRouter>().config(
         navigatorObservers: () => [
