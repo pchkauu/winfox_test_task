@@ -27,7 +27,7 @@ make
          <img width="300px" src="./media/details_page.png">
       </td>
       <td>
-         <img width="300px" rc="./media/logo_page.png">
+         <img width="300px" src="./media/logo_page.png">
       </td>
    </tr>
 <table>
