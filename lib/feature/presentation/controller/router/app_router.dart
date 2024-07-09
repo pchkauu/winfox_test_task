@@ -9,5 +9,29 @@ part 'app_router.gr.dart';
 @AutoRouterConfig()
 class AppRouter extends _$AppRouter {
   @override
-  List<AutoRoute> get routes => [];
+  List<AutoRoute> get routes => [
+        CustomRoute(
+          path: '/',
+          page: Home.page,
+          initial: true,
+          transitionsBuilder: TransitionsBuilders.fadeIn,
+          children: [
+            CustomRoute(
+              path: 'fruit_list',
+              page: FruitList.page,
+              transitionsBuilder: TransitionsBuilders.fadeIn,
+            ),
+            CustomRoute(
+              path: 'winfox_logo',
+              page: WinfoxLogo.page,
+              transitionsBuilder: TransitionsBuilders.fadeIn,
+            ),
+          ],
+        ),
+        CustomRoute(
+          path: '/details',
+          page: FruitDetails.page,
+          transitionsBuilder: TransitionsBuilders.fadeIn,
+        ),
+      ];
 }
