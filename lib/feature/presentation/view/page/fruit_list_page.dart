@@ -146,6 +146,7 @@ class FruitListPageLoadedBody extends StatelessWidget {
         },
         child: ListView.separated(
           itemCount: state.fruits.length,
+          padding: EdgeInsets.zero,
           itemBuilder: (context, index) {
             final fruit = state.fruits[index];
 

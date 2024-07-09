@@ -35,6 +35,7 @@ class _HomeBottomNavigationBarState extends State<HomeBottomNavigationBar> {
           selectedIndex = index;
         });
       },
+      backgroundColor: Colors.white,
       currentIndex: selectedIndex,
       selectedItemColor: Colors.blue,
       unselectedItemColor: Colors.blueGrey,
