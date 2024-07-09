@@ -16,6 +16,7 @@ dependencies:
     sdk: flutter
   flutter_bloc: ^8.1.6
   get_it: ^7.6.7
+  injectable: ^2.3.3
   json_annotation: ^4.9.0
   talker: ^4.3.2
   talker_bloc_logger: ^4.3.2
