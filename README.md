@@ -12,6 +12,8 @@ make
 
 ### Скриншоты
 
+ <img src="./media/pending_state.png" alt="Состояние загрузки" max-width="200" height="auto" display="block" margin="auto">
+
 <div display="flex" flex-wrap="wrap"; justify-content="space-around" padding="20">
     <div margin="10" text-align="center">
         <img src="./media/pending_state.png" alt="Состояние загрузки" max-width="200" height="auto" display="block" margin="auto">
