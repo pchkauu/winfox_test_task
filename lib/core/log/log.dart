@@ -41,14 +41,13 @@ class Log {
   static Future<void> f(
     Object exception,
     StackTrace? stackTrace,
-    dynamic msg,
   ) async {
     if (kReleaseMode) return;
 
     talker.handle(
       exception,
       stackTrace,
-      msg,
+      exception.toString(),
     );
   }
 
